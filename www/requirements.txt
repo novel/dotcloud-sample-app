@@ -1,0 +1,3 @@
+redis
+django
+django-celery

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h4>job information</h4>
+
+<table>
+  <tr>
+    <td>host</td><td>{{ job.host }}</td>
+  </tr>
+  <tr>
+    <td>status</td><td>{{ job.status }}</td>
+  </tr>
+  <tr>
+    <td>result</td><td>{{ job.result }}</td>
+  </tr>
+  <tr>
+    <td>task_id</td><td>{{ job.task_id }}</td>
+  </tr>
+</table>
+
+{% endblock content %}

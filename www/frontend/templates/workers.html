@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h4>workers list</h4>
+
+<table>
+ <tr>
+   <th>workers</th>
+ {% for i in stats.items %}
+ </tr>
+   <td>{{ i.0 }}</td>
+ </tr>
+ {% endfor %}
+</table>
+
+{% endblock content %}
